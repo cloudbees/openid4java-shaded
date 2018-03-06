@@ -64,6 +64,16 @@
       <artifactId>guice</artifactId>
       <version>4.1.0</version>
     </dependency>
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+    </dependency>
+    <dependency>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -105,6 +115,8 @@
                   <exclude>com.google.inject.guice</exclude>
                   <exclude>commons-logging</exclude>
                   <exclude>commons-codec</exclude>
+                  <exclude>javax.inject</exclude>
+                  <exclude>aopalliance</exclude>
                 </excludes>
               </artifactSet>
               <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
