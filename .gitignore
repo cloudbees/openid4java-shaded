@@ -1,15 +1,16 @@
-target
-work
+dependency-reduced-pom.xml
+target/
+work/
 
 # IntelliJ project files 
 *.iml
 *.ipr
 *.iws
-.idea
+.idea/
 
 # eclipse project file
-.settings
+.settings/
 .classpath
 .project
-build
+build/
 
